@@ -7,8 +7,8 @@ using namespace std;
 
 const char delimiter = '_';
 const int insert_words_count = 2;
-const int base_size = 10;
 string base[] = { "СЬОГОДНІ","ЧИМДУЖ","МОЖЛИВО","ДОЩИТЬ","СТРІЛЯТИ","СИЛЬНО","ДЕРЕВО","ЗМІСТОВНО","ВЕЛИКИЙ","ВОГОНЬ" };
+const int base_size = size(base);
 
 void ToUpper(string& s)
 {
