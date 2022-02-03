@@ -15,7 +15,7 @@ void ToUpper(string& s)
 	int len = s.length();
 	for (int i = 0; i < len; i++)
 	{
-		s[i] = toupper(s[i]); //почему-то не работает с сиволом 'я'
+		s[i] = toupper(s[i]);
 	}
 }
 
@@ -70,4 +70,6 @@ int main()
 
 	string decoded_message = DecodeMessage(encoded_message);
 	cout << "\nДешифроване речення:\n" << decoded_message << '\n';
+
+	cin.get();
 }
